@@ -1,0 +1,20 @@
+生成mongo和xunsearch缓存 
+php /vprogram/datajob2/cartoon.php cacheallinfo c
+ php /vprogram/datajob2/documentary.php cacheallinfo d
+
+ php /vprogram/datajob2/movie.php cacheallinfo m
+
+ php /vprogram/datajob2/teleplay.php cacheallinfo t
+
+php /vprogram/datajob2/variety.php cacheallinfo v
+
+ php /vprogram/datajob2/beijing.php cacheallinfo bj
+
+
+
+生成单个电视剧xunsearch
+
+php /vprogram/xunsearch2/teleplay.php add sid
+
+查看电视剧xunsaearch缓存是否生成
+php /vprogram/xunsearch2/teleplay.php get sid
